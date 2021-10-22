@@ -1,0 +1,49 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+.card {
+  margin: auto;
+  outline: none;
+  border: none;
+  box-shadow: 1px 1px 1.5px 1.3px white;
+  background-color: black;
+  height: 70vh;
+  width: 70vh;
+  padding: 5px;
+  border-radius: 30px;
+  margin-top: 15vh;
+  opacity: 80%;
+}
+.search {
+  margin-top: 20px;
+}
+.card input {
+  border: none;
+  outline: none;
+  background-color: #404040;
+  width: 40vh;
+  height: 5vh;
+  margin-left: 60px;
+  margin-top: 10px;
+  color: black;
+  text-align: center;
+  background-color: whitesmoke;
+  border-radius: 15px;
+}
+.card button {
+  height: 6vh;
+  width: 6vh;
+  background-color: #404040;
+  color: black;
+  outline: none;
+  border: none;
+  background-color: whitesmoke;
+  border-radius: 15px;
+}
+.border {
+  color: white;
+}
+.font-detail {
+  color: white;
+  margin-left: 15px;
+}

@@ -11,7 +11,9 @@ getdata(event);
 searchbar.addEventListener("click", clearout);
 searchbutton.addEventListener("click", getdata);
 function clearout(){
-   searchbar.value = "";                        });
+   searchbar.setAttribute("value" , 
+                          "");
+}
     
 
 

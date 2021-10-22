@@ -8,10 +8,10 @@ const weather = document.getElementById("weather");
 const humiditybox = document.getElementById("humidity");
 const windspeed = document.getElementById("windspeed");
 getdata(event);
-searchbar.addEventListener("click,function(){
-                           searchbar.value = "";
-                           });
+searchbar.addEventListener("click", clearout);
 searchbutton.addEventListener("click", getdata);
+function clearout(){
+   searchbar.value = "";                        });
     
 
 
